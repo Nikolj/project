@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="img/svg/camera1.ico" type="image/x-icon">
+    <title>Image-galery</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="font/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="conteiner-header">
+            <div class="header-header">
+                <h2><i class="fa fa-camera"></i> Unsplash API Foto-galery</h2>
+                <div class="search-box">
+                    <input id="input" name="input" onchange="search()" type="text" value placeholder="Search..." autofocus><i id="clear-sea" class="fa fa-clear fa-lg"></i><i id="search" class="fa fa-search fa-lg"></i>
+                </div>
+            </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="section-conteiner">
+            <div class="container-main">
+                <div id="grid"></div>
+              </div>
+        </section>
+      </main>
+      <footer class="footer ">
+        <div class="footer-cl ">
+            <a href="https://github.com/Nikolj "> <img src="img/svg/githubt.svg" alt="Git " class="cl-1 "> </a>
+        </div>
+        <div class="footer-cl "> 2022</div>
+        <div class="footer-cl ">
+            <a href="https://rs.school/js-stage0/ "> <img src="img/svg/rs_school_js.svg " alt="RS_School_JS " class="cl-3 "></a>
+        </div>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
