@@ -16,7 +16,8 @@ let isPlay = false;
 let playNum = 0;
 let playList = [
     'dontstartnow',
-    'beyonce'
+    'beyonce',
+    'BRAN-Tonight-kissvk.com'
 ]
 
 
